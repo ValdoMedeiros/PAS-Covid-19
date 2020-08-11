@@ -1,0 +1,39 @@
+<!doctype html> 
+<html lang="pt-br"> 
+<head><meta charset="utf-8" />
+	<title>Formulário 1 </title> 
+
+</head>
+<body>
+
+<h1>Formulário</h1> 
+<p>Este projeto viabiliza ajuda para pessoas em grupo de risco da pandemia 
+Covid-19 que estão impossibilitado de sair de casa.<br> Voltado aos idosos por serem o 
+grupo mais afetado. Crie abaixo seu cadastro e faça a diferença na vida de alguem.<br><br></p>
+ 
+<h2> CRIE O SEU CADASTRO</h2>
+<form name="formCadastro" action="/" method="post">
+	<p>Nome <input type="text" maxlength="50" size="50" placeholder="Nome Completo"/></p>
+	CPF <input type="cpf" maxlength="11" placeholder="11 dígitos"/></p>
+<p><label>Sexo:<label>
+	<input type="radio" name="sex" value="masculino"/>Masculino
+	<input for type="radio" name="sex" value="Feminino">Feminino
+	<input for type="radio" name="sex" value="Outro">Outro</p>
+		<p>Data de Nascimento <input type="date"/></p>
+		<p>Idade <input min="1" max="999" type="number"</p>
+		<p>Endereço <input type="text" maxlength="50" size="50"/></p>
+		<p>Número <input type="number" min="0" max="99999"/></P>
+		<p>Cidade <input type="text" maxlength="50"size="50"/></p>
+		<p>Telefone <input type="number" maxlength="11"/><p/>
+		<p>E-mail <input type="E-mail" size="35" placeholder="Digite seu E-mail"/></p>
+		<p>criar senha <input type="password" maxlength="8" placeholder="8 dígitos"/></p>
+		<p>confirmar senha <input type="password" id="senha" maxlength="8" placeholder="8"/></p>
+	<input type="submit" name="salvar" value="Concluir Cadastro"/></p>
+<pre>
+Copyright&copy; 2020-by Eriosvaldo Medeiros
+IFPB Campus Avançado de Soledade
+<pre>
+</form>
+		
+<body>
+</html> 
